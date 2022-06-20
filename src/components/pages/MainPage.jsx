@@ -8,9 +8,14 @@ export default function MainPage() {
     const [isSelectedFoie, setIsSelectedFoie] = useState(false);
     const [isSelectedFish, setIsSelectedFish] = useState(false);
     const [isSelectedChicken, setIsSelectedChicken] = useState(false);
+
     const [isMouseEnterFoie, setIsMouseEnterFoie] = useState(false)
     const [isMouseEnterFish, setIsMouseEnterFish] = useState(false)
     const [isMouseEnterChicken, setIsMouseEnterChicken] = useState(false)
+
+    const [isInStockFoie, setIsInStockFoie] = useState(true)
+    const [isInStockFish, setIsInStockFish] = useState(true)
+    const [isInStockChicken, setIsInStockChicken] = useState(true)
 
     const handleSelectFoie = () => {
         setIsSelectedFoie(!isSelectedFoie)
@@ -43,6 +48,16 @@ export default function MainPage() {
         setIsMouseEnterChicken(false)
     }
 
+    const changeStockFoie = () => {
+        setIsInStockFoie (!isInStockFoie)
+    }
+    const changeStockFish = () => {
+        setIsInStockFish (!isInStockFish)
+    }
+    const changeStockChicken = () => {
+        setIsInStockChicken (!isInStockChicken)
+    }
+
 
     return (
         <Adaptive className='assortment' tagname={'article'}>
@@ -62,6 +77,8 @@ export default function MainPage() {
                     mouseEnter={mouseEnterFoie}
                     mouseOut={mouseOutFoie}
                     isMouseEnter={isMouseEnterFoie}
+                    isInStock={isInStockFoie}
+                    changeStock={changeStockFoie}
                 />
                 <Card
                     product='рыбой'
@@ -74,6 +91,8 @@ export default function MainPage() {
                     mouseEnter={mouseEnterFish}
                     mouseOut={mouseOutFish}
                     isMouseEnter={isMouseEnterFish}
+                    isInStock={isInStockFish}
+                    changeStock={changeStockFish}
                 />
                 <Card
                     product='курой'
@@ -86,6 +105,8 @@ export default function MainPage() {
                     mouseEnter={mouseEnterChicken}
                     mouseOut={mouseOutChicken}
                     isMouseEnter={isMouseEnterChicken}
+                    isInStock={isInStockChicken}
+                    changeStock={changeStockChicken}
                 />
             </section>
         </Adaptive>
