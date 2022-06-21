@@ -1,0 +1,28 @@
+.item__card__selected {
+    width: 320px;
+    height: 480px;
+    background-color: #F2F2F2;
+    border: 4px solid #D91667;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.info__viands__selected {
+    color: #D91667;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.weight__total__selected {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #D91667;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 16px;
+}

@@ -1,5 +1,7 @@
 import Cat from '../../images/cat.svg'
-import './Card.css'
+import './styles/CardDefault.css'
+import './styles/CardSelected.css'
+import './styles/CardOutOfStock.css'
 
 export default function Card(props) {
 

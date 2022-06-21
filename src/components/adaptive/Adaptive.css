@@ -1,6 +1,24 @@
+@media screen and (min-width: 375px) {
+    .adaptive {
+        width: 320px;
+        margin: 0 auto;
+    }
+
+    
+}
+
+@media screen and (min-width: 768px) {
+    .adaptive {
+        width: 680px;
+        margin: 0 auto;
+    }
+
+}
+
+
 @media screen and (min-width: 1440px) {
-        .adaptive {
-            width: 1120px;
-            margin: 0 auto;
-        }
+    .adaptive {
+        width: 1120px;
+        margin: 0 auto;
+    }
 }

@@ -1,0 +1,65 @@
+.item__card__outOfStock {
+    width: 320px;
+    height: 480px;
+    background-color: #F2F2F2;
+    border: 4px solid #b3b3b3;
+    border-radius: 10px;
+}
+
+.info__viands__outOfStock {
+    color: #b3b3b3;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.info__title__outOfStock {
+    padding-top: 4px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #b3b3b3;
+}
+
+.info__product__outOfStock {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #b3b3b3;
+    padding-bottom: 14px;
+}
+
+.info__portions__outOfStock,
+.info__mouses__outOfStock,
+.info__happiness__outOfStock {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #b3b3b3; 
+}
+
+.card__cat__outOfStock {
+    width: 224px;
+    opacity: 0.6;
+}
+
+.weight__total__outOfStock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #b3b3b3;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 16px;
+    z-index: 2;
+}
+
+.bottom__outOfstock {
+    color: #FFFF66;
+}

@@ -10,5 +10,7 @@
 
 .assortment__cards {
     display: flex;
-    margin-top: 24px;
+    flex-wrap: wrap;
+    padding-top: 24px;
 }
+
